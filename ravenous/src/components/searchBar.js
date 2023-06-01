@@ -4,7 +4,7 @@ const SearchBar = () => {
   const sort = ["Best March", "Highest rated", "Most review"];
   return (
     <div>
-      <div>
+      <div className="sort">
         {sort.map((item, index) => (
           <div key={index}>{item}</div>
         ))}

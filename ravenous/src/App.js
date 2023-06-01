@@ -13,7 +13,8 @@ function App() {
       </div>
       <div className="body">
         <BusinessList />
-        <BusinessList /> <BusinessList />
+        <BusinessList />
+        <BusinessList />
         <BusinessList />
       </div>
     </div>
