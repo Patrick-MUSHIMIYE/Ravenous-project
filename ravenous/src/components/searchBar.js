@@ -5,8 +5,8 @@ const SearchBar = () => {
   return (
     <div>
       <div className="sort">
-        {sort.map((item, index) => (
-          <div key={index}>{item}</div>
+        {sort.map((item) => (
+          <div key={item}>{item}</div>
         ))}
       </div>
       <div>
